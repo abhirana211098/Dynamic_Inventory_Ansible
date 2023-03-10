@@ -1,0 +1,10 @@
+---
+ - name: Full Splunk Installation
+   hosts: all
+   tasks:
+
+     - name: Splunk Restart for saving admin credentials successfully
+       become: yes
+       become_user: root
+       command:
+         cmd: /opt/splunk/bin/splunk restart
