@@ -1,4 +1,9 @@
 plugin: aws_ec2
+aws_access_key: AKIA6ELH4XYBGFDG7CH7
+aws_secret_key: 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
 regions:
   - ap-south-1
+  
+hostnames:
+    - ip-address
 
