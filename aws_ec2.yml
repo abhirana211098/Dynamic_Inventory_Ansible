@@ -6,4 +6,9 @@ regions:
   
 hostnames:
     - ip-address
+    
+groups:
+ master: "'aserver' in tags.Environment"
+ slave1: "'ahost1' in tags.Environment"
+ slave2: "'ahost2' in tags.Environment"
 
