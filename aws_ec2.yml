@@ -13,6 +13,6 @@ groups:
  slave1: "'Splunk-1' in tags.Environment"
  slave2: "'Splunk-2' in tags.Environment"
  deployer: "'Splunk-3' in tags.Environment"
- #shc1: "'ahost1' in tags.Environment"
- #shc2: "'ahost2' in tags.Environment"
+ shc1: "'Splunk-4' in tags.Environment"
+ shc2: "'Splunk-5' in tags.Environment"
 
