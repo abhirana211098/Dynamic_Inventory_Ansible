@@ -1,6 +1,6 @@
 ---
  - name: Full Splunk Installation
-   hosts: master, slave1, slave2
+   hosts: master, slave1, slave2, deployer
    tasks:
 
      - name: Downloading Splunk in EC2-Instance
