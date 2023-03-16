@@ -9,7 +9,10 @@ hostnames:
     - ip-address
     
 groups:
- master: "'aserver' in tags.Environment"
- slave1: "'ahost1' in tags.Environment"
- slave2: "'ahost2' in tags.Environment"
+ master: "'Splunk-0' in tags.Environment"
+ slave1: "'Splunk-1' in tags.Environment"
+ slave2: "'Splunk-2' in tags.Environment"
+ deployer: "'Splunk-3' in tags.Environment"
+ #shc1: "'ahost1' in tags.Environment"
+ #shc2: "'ahost2' in tags.Environment"
 
